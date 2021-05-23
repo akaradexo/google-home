@@ -1,0 +1,56 @@
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
+  html{
+    font-size: 16px;
+  }
+  
+  body{
+    font-family: 'Poppins', sans-serif;
+    /* background-image: url(https://source.unsplash.com/random/1920x720); */
+    background-color: grey;
+    min-height: 100vh;
+    margin: 0;
+  }
+  nav{
+   
+    width: auto;
+    height: 50px;
+    margin: 20px;
+    display: block;
+  }
+  nav ul{
+    display: flex;
+    align-items: center;
+    float: right;
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+  }
+  nav ul li{
+    display: inline;
+  }
+  nav ul li a{
+    color: white;
+    text-decoration: none;
+    align-items: center;
+    padding: 8px;
+    font-weight: 100;
+    font-size: small;
+  }
+  nav ul li a img{
+    filter: grayscale(0%);
+    height: 25px;
+    width: 25px;
+    border-radius: 50%;
+    align-items: center;
+  }
+  .user-logo{
+    height: 33px;
+    width: 33px;
+  }
